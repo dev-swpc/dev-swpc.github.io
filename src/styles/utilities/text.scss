@@ -1,0 +1,83 @@
+/* text */
+
+.u-heading-m{
+  font-size: 1.5rem;
+}
+.u-heading-l{
+  font-size: 2rem;
+}
+
+
+.u-font-size-s {
+  font-size: 0.75rem;
+}
+.u-font-size-medium {
+  font-size: 1rem;
+}
+
+.u-font-size-l {
+  font-size: 1.25rem;
+}
+.u-font-size-xlarge {
+  font-size: 1.5rem;
+}
+.u-font-size-xxlarge {
+  font-size: 1.75rem;
+}
+.u-font-size-xxxlarge {
+  font-size: 2rem;
+}
+.u-header-spacing {
+  letter-spacing: 0.1em;
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-font-lato {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.u-font-weight-light {
+  font-weight: 300;
+}
+
+.u-text-lato {
+  @extend .u-font-lato;
+  @extend .u-font-weight-light;
+}
+
+.u-font-bold {
+  font-weight: 700;
+}
+
+.u-text-underline {
+  text-decoration: underline;
+}
+
+.u-text-decoration-none {
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 64em) {
+  .u-font-size-medium {
+    font-size: 1.2rem;
+  }
+
+  .u-font-size-large {
+    font-size: 1.3rem;
+  }
+
+  .u-font-size-xlarge {
+    font-size: 1.6rem;
+  }
+}

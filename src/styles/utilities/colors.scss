@@ -1,0 +1,72 @@
+/* colors */
+.u-text-white {
+  color: white;
+}
+
+.u-color-dark-1 {
+  color: black;
+}
+
+.u-color-light-1 {
+  color: white
+}
+
+.u-color-brand-1 {
+  color: $color-brand-1;
+}
+.u-color-green{
+  color:$color-green;
+}
+.u-secondary-color {
+  color: $text-color-secondary;
+}
+
+.u-color-black {
+  color: $text-color-primary;
+}
+
+.u-bg-light-1 {
+  background-color: $bg-color-light-1
+}
+
+.u-bg-light-3 {
+  background-color: $bg-color-light-3
+}
+.u-bg-light-4 {
+  background-color: $bg-color-light-4
+}
+
+.u-bg-dark-1 {
+  background-color: $bg-color-dark-1
+}
+
+.u-bg-dark-2 {
+  background-color: $bg-color-dark-2
+}
+
+
+.u-bg-dark-3 {
+  background-image: url($imagesPath + 'clean-kitchen.jpg');
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.u-bg-dark-4 {
+  background-color: #E0E0E0
+}
+
+.u-bg-overlay-dark {
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+}
+
+.u-bg-overlay-light {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.u-bg-overlay-medium {
+  background-color: rgba(37, 37, 37, 0.78);
+  width: 100%;
+
+}

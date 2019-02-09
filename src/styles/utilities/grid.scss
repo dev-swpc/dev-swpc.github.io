@@ -1,0 +1,65 @@
+/* responsive */
+.u-md-show {
+  display: none;
+}
+
+.u-md-cloak {
+  visibility: inherit;
+}
+
+.u-sm-hide {
+  display: block;
+}
+
+.u-sm-show {
+  display: none;
+}
+
+.u-show {
+  display: block;
+}
+
+.u-sm-center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.u-sm-text-center{
+  text-align: center;
+}
+
+// same as sm settings for purecss
+@media screen and (min-width: 35.5em) {
+
+  .u-sm-hide {
+    display: none;
+  }
+
+  .u-sm-show {
+    display: block;
+  }
+
+
+}
+
+// same as md settings for purecss
+@media screen and (min-width: 48em) {
+  .u-md-show {
+    display: block;
+  }
+  .u-sm-text-center{
+    text-align: inherit;
+  }
+  .u-md-cloak {
+    visibility: hidden;
+  }
+
+  .u-md-hide {
+    display: none;
+  }
+
+  .u-sm-center {
+    margin-left:inherit;
+    margin-right:inherit;
+  }
+}

@@ -1,0 +1,117 @@
+/* paddings and margins */
+
+
+.u-padding-right-s {
+  padding-right: $padding-s;
+}
+.u-padding-horizontal-s {
+  padding-left: $padding-s;
+  padding-right: $padding-s;
+}
+.u-padding-horizontal-m {
+  padding-left: $padding-m;
+  padding-right: $padding-m;
+}
+
+.u-padding-vertical-s {
+  padding-top: $padding-s;
+  padding-bottom: $padding-s;
+}
+
+.u-padding-vertical-m {
+  padding-top: $padding-m;
+  padding-bottom: $padding-m;
+}
+.u-padding-vertical-l {
+  padding-top: $padding-l;
+  padding-bottom: $padding-l;
+}
+.u-padding-vertical-xl {
+  padding-top: $padding-xl;
+  padding-bottom: $padding-xl;
+}
+
+.u-padding-bottom-s {
+  padding-bottom: $padding-s;
+}
+
+.u-padding-bottom-s {
+  padding-bottom: $padding-s;
+}
+
+
+.u-margin-vertical-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.margin-vertical-m {
+  margin-top: $margin-m;
+  margin-bottom: $margin-m;
+}
+
+.u-margin-top-s {
+  margin-top: $margin-s;
+}
+
+.u-margin-top-m {
+  margin-top: $margin-m;
+}
+
+.u-margin-top-l {
+  margin-top: $margin-l;
+}
+
+.u-margin-top-xl {
+  margin-top: $margin-xl;
+}
+
+.u-margin-bottom-xl {
+  margin-bottom: $margin-xl;
+}
+.u-margin-right-m {
+  padding-right: $padding-m;
+}
+.u-margin-top-bottom-xl {
+  @extend .u-margin-top-xl;
+  @extend .u-margin-bottom-xl;
+}
+
+.u-margin-page {
+  max-width: 1080px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.u-no-margin {
+  margin: 0;
+}
+
+.u-margin-side-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// same as sm settings for purecss
+@media screen and (min-width: 35.5em) {
+
+
+  .u-margin-top-s {
+    margin-top: 2 * $margin-s;
+  }
+
+  .u-margin-top-m {
+    margin-top: 2 * $margin-m;
+  }
+
+  .u-margin-top-l {
+    margin-top: 2 * $margin-l;
+  }
+
+  .u-md-margin-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

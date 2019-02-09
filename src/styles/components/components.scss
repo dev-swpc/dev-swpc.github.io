@@ -1,0 +1,182 @@
+.phone-number {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.c-header {
+    @extend .u-margin-page;
+    @extend .u-padding-horizontal-s;
+    @extend .u-padding-vertical-m;
+
+    font-weight: bold;
+
+    @extend .u-font-size-l;
+
+    .logo-container {}
+
+    .logo-image {
+        @extend .u-sm-center;
+        display: block;
+        max-width: 70%;
+        height: auto;
+    }
+
+    .times-available {
+        text-align: right;
+        width: 100%;
+    }
+
+}
+
+.c-splash-section {
+    background-image: url($imagesPath + 'wasp-hive.jpg');
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+
+
+    .splash-margins {
+        // @extend .u-bg-overlay-light;
+        @extend .u-padding-vertical-s;
+        @extend .u-padding-horizontal-s;
+        @extend .u-margin-page;
+
+    }
+
+    .splash-inner-container {
+        @extend .u-bg-overlay-medium;
+        @extend .u-padding-vertical-s;
+        @extend .u-color-light-1;
+        max-width: 480px;
+        box-sizing: border-box;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        overflow: hidden;
+    }
+
+    .splash-list-item-1 {
+        @extend .u-list-item-mouse;
+    }
+
+    .splash-list-item-2 {
+        @extend .u-list-item-bug;
+    }
+
+    .splash-list-item-3 {
+        @extend .u-list-item-rat;
+    }
+
+    .splash-list-item-4 {
+        @extend .u-list-item-ant;
+    }
+}
+
+.c-pest-list {
+    @extend .u-margin-page;
+    @extend .u-padding-horizontal-s;
+    @extend .u-padding-vertical-l;
+    @extend .u-color-dark-1;
+    font-weight: bold;
+
+    .pest-list-item {
+        @extend .u-list-item-check;
+    }
+}
+
+.c-cta-phone-strip {
+    @extend .u-margin-page;
+    @extend .u-padding-horizontal-s;
+    @extend .u-padding-vertical-s;
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .extra-info {
+        float: left;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .phone-number-container {
+        text-align: right
+    }
+}
+
+.c-areas-we-cover {
+    @extend .u-margin-page;
+    @extend .u-padding-horizontal-s;
+    @extend .u-padding-vertical-l;
+    text-align: center;
+    
+    font-weight: bold;
+    .area-paragraph{
+        max-width: 360px;
+        margin-left:auto;
+    margin-right:auto;
+    }
+    .area-list-item {
+        @extend .u-list-item-check;
+    }
+
+    .area-map-img {
+        display: block;
+        max-width: 460px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 48em) {
+    .c-areas-we-cover {
+        text-align: left;
+        .area-paragraph{
+            margin-left:inherit;
+            margin-right:inherit;
+        }
+        .phone-number-container {
+            text-align: right
+        }
+    }
+}
+
+.c-why-choose-us {
+    @extend .u-margin-page;
+    @extend .u-padding-horizontal-s;
+    @extend .u-padding-vertical-xl;
+    @extend .u-color-light-1;
+    box-sizing: border-box;
+    font-weight: bold;
+
+}
+@media screen and (min-width: 48em) {
+    .c-why-choose-us{
+        .feature-list{
+            -webkit-column-count: 2; /* Chrome, Safari, Opera */
+            -moz-column-count: 2; /* Firefox */
+            column-count: 2;
+            padding-inline-start: 1rem;
+        }
+    }
+}
+
+.c-footer {
+    @extend .u-margin-page;
+    @extend .u-padding-horizontal-s;
+    @extend .u-padding-vertical-l;
+    @extend .u-font-size-s;
+    
+}
+
+// same as md settings for purecss
+@media screen and (min-width: 48em) {}
+
+// same as lg settings for purecss
+@media screen and (min-width: 64em) {}

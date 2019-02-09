@@ -1,0 +1,41 @@
+.u-remove-list-style{
+    list-style: none;
+    text-indent: -12px;
+    &:before {
+        padding-right: 4px;
+    }
+}
+.u-ul-padding-reset{
+    padding-inline-start: 0.5rem;
+}
+.u-list-item-check {
+    @extend .u-remove-list-style;
+    &:before {
+        color:$color-green;
+        content: '✔';
+    }
+}
+.u-list-item-ant {
+    @extend .u-remove-list-style;
+    &:before {
+        content: '🐜';
+    }
+}
+.u-list-item-mouse {
+    @extend .u-remove-list-style;
+    &:before {
+        content: '🐭';
+    }
+}
+.u-list-item-rat {
+    @extend .u-remove-list-style;
+    &:before {
+        content: '🐀';
+    }
+}
+.u-list-item-bug {
+    @extend .u-remove-list-style;
+    &:before {
+        content: '🐞';
+    }
+}
