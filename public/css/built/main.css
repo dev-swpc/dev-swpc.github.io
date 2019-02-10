@@ -53,6 +53,7 @@ html, button, input, select, textarea,
   background-color: #4a0000; }
 
 .u-bg-dark-3 {
+  background-image: url("/public/images/clean-kitchen.jpg");
   object-fit: contain;
   background-size: cover;
   background-position: center;

@@ -44,9 +44,8 @@
   background-color: $bg-color-dark-2
 }
 
-
 .u-bg-dark-3 {
-  // background-image: url($imagesPath + 'clean-kitchen.jpg');
+  background-image: url($imagesPath + 'clean-kitchen.jpg');
   object-fit: contain;
   background-size: cover;
   background-position: center;
