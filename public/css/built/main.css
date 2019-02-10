@@ -53,7 +53,6 @@ html, button, input, select, textarea,
   background-color: #4a0000; }
 
 .u-bg-dark-3 {
-  background-image: url("/projects/pest//public/images/clean-kitchen.jpg");
   object-fit: contain;
   background-size: cover;
   background-position: center;
@@ -372,7 +371,7 @@ body {
     width: 100%; }
 
 .c-splash-section {
-  background-image: url("/projects/pest//public/images/wasp-hive.jpg");
+  background-image: url("/public/images/wasp-hive.jpg");
   object-fit: contain;
   background-size: cover;
   background-position: center;
