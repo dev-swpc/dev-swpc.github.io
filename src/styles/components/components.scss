@@ -19,7 +19,7 @@
     .logo-image {
         @extend .u-sm-center;
         display: block;
-        max-width: 70%;
+        max-width: 90%;
         height: auto;
     }
 
@@ -29,7 +29,20 @@
     }
 
 }
-
+@media screen and (min-width: 35.5em){
+    .c-header{
+        .logo-image {
+            max-width: 80%;
+        }
+    }
+}
+@media screen and (min-width: 48em) {
+    .c-header{
+        .logo-image {
+            max-width: 70%;
+        }
+    }
+}
 .c-splash-section {
     background-image: url($imagesPath + 'wasp-hive.jpg');
     object-fit: contain;
